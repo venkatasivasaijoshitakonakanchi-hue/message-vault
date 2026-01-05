@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Message Vault ✦ 21 Days</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-grain"></div>
+  <div class="bg-rain"></div>
+  <div class="bg-stars" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <header class="top">
+      <div class="seal" aria-hidden="true">✦</div>
+
+      <div class="brand">
+        <p class="kicker">21 Paper Stars</p>
+        <h1>Saggi's 21st Birthday <br>Message Vault</h1>
+
+        <p class="sub">
+          For your navy nights, cherry joy, and glossy chocolate warmth.
+        </p>
+
+        <p class="quote">
+            <span class="quote-tag">“Classy. Chic. Quietly iconic.”</span>
+        </p>
+
+        <div class="treats" aria-label="Favorite treats">
+          <span class="treat" title="Chocolate">🍫</span>
+          <span class="treat" title="Rasmalai">🍮</span>
+          <span class="treat" title="Mango">🥭</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="card">
+      <!-- SCREEN 1: HOME / UNLOCK -->
+      <section id="screenHome">
+
+
+  <!-- MAIN ACTION (Enter code) -->
+  <div class="action-wrap">
+    <div class="card-head">
+      <h2>Enter your code ✦</h2>
+      <p class="muted">Your next letter is waiting for you.</p>
+    </div>
+
+    <div class="unlock">
+      <label class="sr-only" for="codeInput">Code</label>
+      <input
+        id="codeInput"
+        type="text"
+        inputmode="numeric"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        placeholder=""
+      />
+      <button id="unlockBtn" type="button">Open my letter</button>
+    </div>
+
+    <!-- keypad stays with enter-code area -->
+    <div class="keypad" aria-label="Keypad">
+      <button class="key" data-k="1">1</button>
+      <button class="key" data-k="2">2</button>
+      <button class="key" data-k="3">3</button>
+      <button class="key" data-k="4">4</button>
+      <button class="key" data-k="5">5</button>
+      <button class="key" data-k="6">6</button>
+      <button class="key" data-k="7">7</button>
+      <button class="key" data-k="8">8</button>
+      <button class="key" data-k="9">9</button>
+      <button class="key key-wide" data-act="clear">Clear</button>
+      <button class="key" data-k="0">0</button>
+      <button class="key key-wide" data-act="back">⌫</button>
+    </div>
+
+    <div class="meta">
+      <p class="countdown">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="daysLeft">—</span> days until <span class="date">Jan 23, 2026</span>
+      </p>
+      <p class="hint">One new unlock per day ✦ (Past letters stay forever)</p>
+    </div>
+
+    <p id="lockStatus" class="lock-status" aria-live="polite"></p>
+    <div id="error" class="error" role="alert" aria-live="polite"></div>
+  </div>
+
+  <!-- SCROLL SECTION: progress + archive -->
+  <div class="below-fold">
+    <div class="progress-wrap" aria-label="Progress">
+      <div class="progress-top">
+        <span class="progress-label">Your little collection</span>
+        <span class="progress-count"><strong id="unlockedCount">0</strong>/21</span>
+      </div>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="21">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+      <div id="progressDots" class="progress-dots" aria-hidden="true"></div>
+    </div>
+
+    <div class="archive">
+      <div class="archive-head">
+        <h3>Your opened letters</h3>
+        <p class="muted small">You can re-open anything you’ve already unlocked ✦ anytime.</p>
+      </div>
+
+      <div id="archiveList" class="archive-list">
+        <p class="muted small">No letters yet — your first one will appear here ✦</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+      <!-- SCREEN 2: LETTER VIEW -->
+      <section id="screenLetter" class="hidden">
+        <!-- magical background doodles (only on letter screen) -->
+        <div class="magic-sky" aria-hidden="true">
+          <div class="sparkles"></div>
+          <div class="doodles">
+            <span class="doodle star s1">✦</span>
+            <span class="doodle star s2">✧</span>
+            <span class="doodle star s3">✦</span>
+            <span class="doodle swirl w1">〰</span>
+            <span class="doodle swirl w2">〰</span>
+            <span class="doodle dot d1">•</span>
+            <span class="doodle dot d2">•</span>
+            <span class="doodle heart h1">♡</span>
+            <span class="doodle heart h2">♡</span>
+          </div>
+        </div>
+
+        <!-- spotlight glow -->
+        <div id="spotlight" class="spotlight" aria-hidden="true"></div>
+
+        <button id="backBtn" class="back" type="button">← Return to Vault</button>
+
+        <!-- paper envelope + unfold flap -->
+        <div id="envelope" class="envelope" aria-hidden="true">
+            <div class="flap"></div>
+            <div class="env-body"></div>
+            <div id="envelopeStatus" class="envelope-status">
+              This letter has already been unlocked ✦
+            </div>
+          </div>          
+
+        <div class="letter">
+          <div class="letter-top">
+            <h2 id="letterTitle"></h2>
+            <span id="letterCode" class="badge"></span>
+          </div>
+
+          <p id="letterMessage"></p>
+
+          <div class="letter-footer">
+            <span class="sig">— always in your corner ✦</span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer class="foot">
+      <p class="tiny">Made with love, like a soft letter you keep in a book.</p>
+    </footer>
+  </main>
+
+  <div id="inkLayer" class="ink-layer" aria-hidden="true"></div>
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
