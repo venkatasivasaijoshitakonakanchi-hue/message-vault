@@ -50,7 +50,7 @@ const MESSAGES = {
     day: 6,
     title: "Day 6 ✦ Chill queen energy",
     message:
-      "You are a kind of person who feels like a safe place—sweet, honest, and effortlessly loyal in a way that makes me trust you without even trying. You carry a calm, chill energy that softens heavy days, like warm brown rainfall against a navy night. There’s something quietly magical about you: never loud, more like a polished sparkle that shows up when the moment matters. I agree, says ChatGPT and me ofc"
+      "Haha, How was my rizzzz from yesterday?! Were you flattered? Butterflies? HAHA. Here's your message for today: You are a kind of person who feels like a safe place—sweet, honest, and effortlessly loyal in a way that makes me trust you without even trying. You carry a calm, chill energy that softens heavy days, like warm brown rainfall against a navy night. There’s something quietly magical about you: never loud, more like a polished sparkle that shows up when the moment matters (You know, Quietly Iconic, hehe). I agree, says ChatGPT and me ofc"
   },
   "6907": {
     day: 7,
