@@ -88,13 +88,13 @@ const MESSAGES = {
   "8515": { day: 15, title: "Day 15 ✦ Little wins matter", message: "Today: celebrate a small win. Drink water. Rest your mind. You’re doing better than you think — and I’m cheering for you." },
   "9616": {
     day: 16,
-    title: "Day 16 ✦ The glow-up is internal too",
+    title: "Day 16 ✦ Special Message 6",
     message:
-      "Your glow-up isn’t just looks — it’s your heart, your growth, your strength. The way you care is beautiful. Don't think too much! It will always be okayyyyy. Gwenchana!"
+      "Dear Saghana, I still remember the first time you and I hung out at Renegade. I was honestly skeptical. I kept wondering if it would be awkward or if it was too soon for us to hang out without Joshita. But to my surprise, it went so well that you’ve since become one of the greatest people I’ve ever known—one of my best friends. I genuinely don’t know what I would have done without you over the past two years as we’ve grown so close. You’ve been there for me through some of the hardest moments of my life. You stayed up late on calls while I ranted about everything going wrong, and you never once hesitated, rushed me, or made me feel like I was too much. That alone says everything about the kind of person you are. You are one of the most patient and kind people I have ever met. You put so much pressure on yourself, work incredibly hard, and somehow always come out on top. I hope you know how valued you are and how lucky everyone around you is to know you. Truly. Being able to dream about the future with you—girls’ trips with you and Joshita, maybe even that penthouse we joked about, or living together at some point—makes me so excited for everything still ahead. And yes, I cannot wait to finally drink soju with you (lol) when I turn 21… only about two more years to go. I can’t wait to see you grow even more and to be a part of your journey in this lifetime. I already know I’ll be there for all the big moments—especially your wedding (obviously). I guess I should start practicing for the dance break now. Happy 21st birthday, Here’s to many more trips, parties, late-night calls, laughter, and all the chaos and joy life has waiting for us. I hope I meet you in every lifetime. You are genuinely the best. I love you so much. Always, Ridhanya"
   },
   "7517": {
     day: 17,
-    title: "Day 17 ✦ Special Message 6",
+    title: "Day 17 ✦ Special Message 7",
     message:
       "Dear Saggi, HAPPY 21ST BIRTHDAYY SAGGI!!🥳🎉🎊🍺🥂 You are officially an adult adult meaning...YOU CAN START DRINKING🤭🤭 (yayy, not that I rly care but hehe yeah) I actually can't believe you'r this old, it feels very surreal :)) Time has been going by really fast and we just keep growing older and older🥲 I dont think I say this enough, actually I dont even know if I say it but I am so grateful to have you as my older sister!! You are such a stupid, kind, funny, and beautiful person (ik this is cringey but wtvv🙃🙃) Thank you for always bering there for me through my bad and good days. Just spending a little time with you or a hug from you makes me feel like the world is not so bad and I have someone to rely on. I dont know if you know but you really make me happy saggi and throughout my 16 years on this earth, my most genuine laughs and smiles were with youu hehe. You are a really different species (in a good wayy ofcc) but I guess I ended up liking your kind very much!! Im sorrrry for upsetting you and making you mad in some ways, I dont mean too, but obvi I am your younger sister so ofcc Im gonna annoy youu 😝😝(LMAO im jkk) BUT I LOVE YOU SO SO SOO MUCH SAGGI AND hehe currently you will always be my number one favorite person in the whole entire world🙃🙃🫠 From, Vainu :))"
   },
@@ -102,7 +102,7 @@ const MESSAGES = {
   "7819": { day: 19, title: "Day 19 ✦ Keep choosing yourself", message: "Choose yourself more. Protect your peace. You don’t have to earn rest, love, or good things — you deserve them." },
   "4420": {
     day: 20,
-    title: "Day 20 ✦ Special Message 7 ~ Ma",
+    title: "Day 20 ✦ Special Message 8 ~ Ma",
     message:
       "Hi saggi, I love you, you are a bundle of joy and a good friend to me.  I love your craziness and anger (no, that is a lie 😀).  Saggi not everyone are sharp like you, so if anyone asks to explain again please do it, especially me 😂.  I know you are working hard, try your best, even if you fail, it is ok, cry a little bit, and focus on what to do next, which you are doing.  Keep in my mind no matter what I will be there for you always even though I am not good at problem solving, but will be there for you to lean on.  I am too cringy na 🤪.  You are my sunshine, bin tere Kya hei jina, and you are my azhi muthu (hope you remember these 🤣). Have fun and be happy my baby girl."
   },
